@@ -1,0 +1,16 @@
+{
+  "fragen": [
+    {
+      "frage": "Was ist die Hauptstadt von Japan?",
+      "optionen": ["Kyoto", "Osaka", "Tokio", "Hiroshima"],
+      "antwort": "Tokio",
+      "kategorie": "Japan"
+    },
+    {
+      "frage": "Welches Land gehört NICHT zu Skandinavien?",
+      "optionen": ["Norwegen", "Finnland", "Dänemark", "Island"],
+      "antwort": "Finnland",
+      "kategorie": "Europa"
+    }
+  ]
+}

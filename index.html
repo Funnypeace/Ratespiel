@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>ExploreQuiz: Reise um die Welt</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>ExploreQuiz</h1>
+    <div id="score"></div>
+    <nav>
+      <button id="startBtn">Spielen</button>
+      <button id="profileBtn">Mein Profil</button>
+      <select id="categorySelect">
+        <option value="all">Alle Kategorien</option>
+        <option value="Japan">Japan</option>
+        <option value="Europa">Europa</option>
+      </select>
+    </nav>
+  </header>
+  <main>
+    <section id="quiz">
+      <div id="question">Lade Frage...</div>
+      <div id="answers">
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+      </div>
+    </section>
+    <section id="profile" class="hidden">
+      <h2>Mein Profil</h2>
+      <p>Benutzer: <span id="username"></span></p>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
