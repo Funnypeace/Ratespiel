@@ -1,31 +1,13 @@
-# ExploreQuiz: Reise um die Welt
+# AI Ad Maker
 
-Dies ist eine einfache Quiz-Anwendung rund um Länder, Kulturen und Sehenswürdigkeiten. Alle Daten werden lokal gespeichert, sodass die App auch offline funktioniert.
+This project is a simple web-based tool for generating AI-powered video advertisements. Users can upload a product image, choose style and audience options, and simulate the creation of an advertising video using Google's Veo 3 technology.
 
-## Funktionen
-- **Quiz-Modus:** Multiple-Choice-Fragen mit Kategorieauswahl oder Zufallsmodus
-- **Level- & Punktesystem:** +10 Punkte pro richtiger Antwort, neues Level alle 100 Punkte
-- **Spielerprofil:** Benutzername und Punktestand werden im Browser gespeichert
+Open `index.html` in a browser to try the demo.
 
-## Nutzung
-1. Repository klonen oder herunterladen
-2. `index.html` im Browser öffnen – es ist keine weitere Installation notwendig
-3. Beim ersten Start Benutzernamen eingeben und mit dem Spielen beginnen
+## Features
+- Drag-and-drop image upload with preview
+- Form for setting advertisement options
+- Loading progress simulation while the ad is generated
+- Example demo campaigns
 
-## Datenstruktur
-Die Fragen befinden sich in `data/questions.json` im folgenden Format:
-```json
-{
-  "fragen": [
-    {
-      "frage": "Was ist die Hauptstadt von Japan?",
-      "optionen": ["Kyoto", "Osaka", "Tokio", "Hiroshima"],
-      "antwort": "Tokio",
-      "kategorie": "Japan"
-    }
-  ]
-}
-```
-
-## Lizenz
-Dieser Code steht unter der MIT-Lizenz. Siehe [LICENSE](LICENSE) für Details.
+This code is provided under the MIT license. See [LICENSE](LICENSE) for details.

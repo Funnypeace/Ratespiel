@@ -1,0 +1,13 @@
+{
+  "name": "ratespiel",
+  "version": "1.0.0",
+  "description": "This project is a simple web-based tool for generating AI-powered video advertisements. Users can upload a product image, choose style and audience options, and simulate the creation of an advertising video using Google's Veo 3 technology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
